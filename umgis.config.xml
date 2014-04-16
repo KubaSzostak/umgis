@@ -1,0 +1,34 @@
+﻿<umgis>
+
+  <MapServices>
+    <!--
+    MapService Types:
+		Wms - WMS Service
+		AgDynamic - ArcGIS Dynamic Map Service
+    -->
+    <!--<MapService Type="Wms" Url="http://wms.gdos.gov.pl/geoserver/wms?" Title="RDOŚ - Obszary Chronione" />-->
+  </MapServices>
+
+  <Basemaps>
+    <!--Basemap image should be located at /Images/basemaps/[Id].png-->
+    <Basemap Id="BHMW" Url="http://umgis.umgdy.gov.pl/ArcGIS/rest/services/World_Street_Map/MapServer" Title="Mapy Morskie" />
+  </Basemaps>
+
+  <Imageries>
+    <Imagery Url="http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Portland/CascadeLandsat/ImageServer" Title="ESRI Sample Imagery" />
+  </Imageries>
+
+  <DTMs>
+    <DTM Url="http://sampleserver3.arcgisonline.com/ArcGIS/rest/services/Earthquakes/CaliforniaDEM/ImageServer" Title="ESRI Sample DEM" />
+  </DTMs>
+
+  <Test>
+    <Test2>
+      <Test3>
+        <t1>1</t1>
+        <t2>2</t2>
+        <t3>4</t3>
+      </Test3>
+    </Test2>
+  </Test>
+</umgis>
