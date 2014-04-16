@@ -7,8 +7,11 @@
 		AgDynamic - ArcGIS Dynamic Map Service
     -->
     <!--<MapService Type="Wms" Url="http://wms.gdos.gov.pl/geoserver/wms?" Title="RDOŚ - Obszary Chronione" />-->
+    <MapService Type="Wms" Url="http://mapy.geoportal.gov.pl/wss/service/INSPIRE_CP/guest" Title="GUGiK - Działki Katastralne" />
     <MapService Type="Wmts" Url="http://geoserver-umgdy.rhcloud.com/gwc/service/wmts" Title="Urząd Morski w Gdyni" />
+
     
+
   </MapServices>
 
   <Basemaps>
